@@ -49,3 +49,16 @@ css   = "normal"
 
 
 # END: Monospace variant
+ 
+
+# START: Serif variant
+ 
+[buildPlans.IosevkaCustomSerif]
+# Seems like that options from above are applied and therefore there is no need
+# for their duplicating.
+family = "Iosevka Custom Serif"
+spacing = "quasi-proportional"
+serifs = "slab"
+
+
+# END: Serif variant
