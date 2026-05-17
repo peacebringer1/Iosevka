@@ -1,6 +1,5 @@
 # START: Monospace variant
 
-
 [buildPlans.IosevkaCustomMono]
 # About spacing: looks like that 'normal' somehow makes something that leads
 # into case, where font is unusable in some applications, because it's 
@@ -13,7 +12,6 @@ spacing = "term"
 serifs = "slab"
 exportGlyphNames = false # I don't use kitty?
 noLigation = true
-
 
 # Font variants: regular (AKA upright/normal), bold, italic 
 
@@ -47,18 +45,92 @@ shape = 600
 menu  = 5
 css   = "normal"
 
-
 # END: Monospace variant
- 
+
+
+# Okay, I'm mistaken - there is a NEED to duplicate, otherwise all variants are
+# built.
+# Variants are copypastes, except for a thing that changes serifs and spacing.
+
 
 # START: Serif variant
- 
+
 [buildPlans.IosevkaCustomSerif]
-# Seems like that options from above are applied and therefore there is no need
-# for their duplicating.
 family = "Iosevka Custom Serif"
 spacing = "quasi-proportional"
 serifs = "slab"
+exportGlyphNames = false
+noLigation = true
 
+# Font variants: regular (AKA upright/normal), bold, italic 
+
+[buildPlans.IosevkaCustomSerif.weights.Regular]
+shape = 350
+menu  = 350
+css   = 350
+
+[buildPlans.IosevkaCustomSerif.weights.Bold]
+shape = 700
+menu  = 700
+css   = 700
+
+[buildPlans.IosevkaCustomSerif.slopes.Upright]
+angle = 0
+shape = "upright"
+menu  = "upright"
+css   = "normal"
+
+[buildPlans.IosevkaCustomSerif.slopes.Italic]
+angle = 9.4
+shape = "italic"
+menu  = "italic"
+css   = "italic"
+
+[buildPlans.IosevkaCustomSerif.widths.Normal]
+shape = 600
+menu  = 5
+css   = "normal"
 
 # END: Serif variant
+
+
+# START: Sans variant
+
+[buildPlans.IosevkaCustomSans]
+family = "Iosevka Custom Sans"
+spacing = "quasi-proportional"
+serifs = "sans"
+exportGlyphNames = false
+noLigation = true
+
+
+# Font variants: regular (AKA upright/normal), bold, italic 
+
+[buildPlans.IosevkaCustomSans.weights.Regular]
+shape = 350
+menu  = 350
+css   = 350
+
+[buildPlans.IosevkaCustomSans.weights.Bold]
+shape = 700
+menu  = 700
+css   = 700
+
+[buildPlans.IosevkaCustomSans.slopes.Upright]
+angle = 0
+shape = "upright"
+menu  = "upright"
+css   = "normal"
+
+[buildPlans.IosevkaCustomSans.slopes.Italic]
+angle = 9.4
+shape = "italic"
+menu  = "italic"
+css   = "italic"
+
+[buildPlans.IosevkaCustomSans.widths.Normal]
+shape = 600
+menu  = 5
+css   = "normal"
+
+# END: Sans variant
