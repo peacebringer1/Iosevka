@@ -1,0 +1,51 @@
+# START: Monospace variant
+
+
+[buildPlans.IosevkaCustomMono]
+# About spacing: looks like that 'normal' somehow makes something that leads
+# into case, where font is unusable in some applications, because it's 
+# considered 'wrongly monospaced'.
+# 'fixed' makes no sense, because it's also makes font unusable and also
+# because font is already without any ligatures.
+# 'term' is good in my case, so that's my choice. 
+family = "Iosevka Custom Mono"
+spacing = "term"
+serifs = "slab"
+exportGlyphNames = false # I don't use kitty?
+noLigation = true
+
+
+# Font variants: regular (AKA upright/normal), bold, italic 
+
+[buildPlans.IosevkaCustomMono.weights.Regular]
+# Much cleaner but still readable
+shape = 350
+menu  = 350
+css   = 350
+
+[buildPlans.IosevkaCustomMono.weights.Bold]
+shape = 700
+menu  = 700
+css   = 700
+
+[buildPlans.IosevkaCustomMono.slopes.Upright]
+angle = 0
+shape = "upright"
+menu  = "upright"
+css   = "normal"
+
+[buildPlans.IosevkaCustomMono.slopes.Italic]
+angle = 9.4
+shape = "italic"
+menu  = "italic"
+css   = "italic"
+
+[buildPlans.IosevkaCustomMono.widths.Normal]
+# Menu 5 stands for 'normal' (AKA upright/regular) font, even though it's 
+# actually 'extended' which is in fact defined by shape
+shape = 600
+menu  = 5
+css   = "normal"
+
+
+# END: Monospace variant
