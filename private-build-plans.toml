@@ -1,13 +1,13 @@
 # START: Monospace variant
 
-[buildPlans.IosevkaCustomMono]
+[buildPlans.SyzporiMono]
 # About spacing: looks like that 'normal' somehow makes something that leads
 # into case, where font is unusable in some applications, because it's 
 # considered 'wrongly monospaced'.
 # 'fixed' makes no sense, because it's also makes font unusable and also
 # because font is already without any ligatures.
 # 'term' is good in my case, so that's my choice. 
-family = "Iosevka Custom Mono"
+family = "Syzpori Mono"
 spacing = "term"
 serifs = "slab"
 exportGlyphNames = false # I don't use kitty?
@@ -15,30 +15,30 @@ noLigation = true
 
 # Font variants: regular (AKA upright/normal), bold, italic 
 
-[buildPlans.IosevkaCustomMono.weights.Regular]
+[buildPlans.SyzporiMono.weights.Regular]
 # Much cleaner but still readable
 shape = 350
 menu  = 350
 css   = 350
 
-[buildPlans.IosevkaCustomMono.weights.Bold]
+[buildPlans.SyzporiMono.weights.Bold]
 shape = 700
 menu  = 700
 css   = 700
 
-[buildPlans.IosevkaCustomMono.slopes.Upright]
+[buildPlans.SyzporiMono.slopes.Upright]
 angle = 0
 shape = "upright"
 menu  = "upright"
 css   = "normal"
 
-[buildPlans.IosevkaCustomMono.slopes.Italic]
+[buildPlans.SyzporiMono.slopes.Italic]
 angle = 9.4
 shape = "italic"
 menu  = "italic"
 css   = "italic"
 
-[buildPlans.IosevkaCustomMono.widths.Normal]
+[buildPlans.SyzporiMono.widths.Normal]
 # Menu 5 stands for 'normal' (AKA upright/regular) font, even though it's 
 # actually 'extended' which is in fact defined by shape
 shape = 600
@@ -55,8 +55,8 @@ css   = "normal"
 
 # START: Serif variant
 
-[buildPlans.IosevkaCustomSerif]
-family = "Iosevka Custom Serif"
+[buildPlans.SyzporiSerif]
+family = "Syzpori Serif"
 spacing = "quasi-proportional"
 serifs = "slab"
 exportGlyphNames = false
@@ -64,29 +64,29 @@ noLigation = true
 
 # Font variants: regular (AKA upright/normal), bold, italic 
 
-[buildPlans.IosevkaCustomSerif.weights.Regular]
+[buildPlans.SyzporiSerif.weights.Regular]
 shape = 350
 menu  = 350
 css   = 350
 
-[buildPlans.IosevkaCustomSerif.weights.Bold]
+[buildPlans.SyzporiSerif.weights.Bold]
 shape = 700
 menu  = 700
 css   = 700
 
-[buildPlans.IosevkaCustomSerif.slopes.Upright]
+[buildPlans.SyzporiSerif.slopes.Upright]
 angle = 0
 shape = "upright"
 menu  = "upright"
 css   = "normal"
 
-[buildPlans.IosevkaCustomSerif.slopes.Italic]
+[buildPlans.SyzporiSerif.slopes.Italic]
 angle = 9.4
 shape = "italic"
 menu  = "italic"
 css   = "italic"
 
-[buildPlans.IosevkaCustomSerif.widths.Normal]
+[buildPlans.SyzporiSerif.widths.Normal]
 shape = 600
 menu  = 5
 css   = "normal"
@@ -96,8 +96,8 @@ css   = "normal"
 
 # START: Sans variant
 
-[buildPlans.IosevkaCustomSans]
-family = "Iosevka Custom Sans"
+[buildPlans.SyzporiSans]
+family = "Syzpori Sans"
 spacing = "quasi-proportional"
 serifs = "sans"
 exportGlyphNames = false
@@ -106,29 +106,29 @@ noLigation = true
 
 # Font variants: regular (AKA upright/normal), bold, italic 
 
-[buildPlans.IosevkaCustomSans.weights.Regular]
+[buildPlans.SyzporiSans.weights.Regular]
 shape = 350
 menu  = 350
 css   = 350
 
-[buildPlans.IosevkaCustomSans.weights.Bold]
+[buildPlans.SyzporiSans.weights.Bold]
 shape = 700
 menu  = 700
 css   = 700
 
-[buildPlans.IosevkaCustomSans.slopes.Upright]
+[buildPlans.SyzporiSans.slopes.Upright]
 angle = 0
 shape = "upright"
 menu  = "upright"
 css   = "normal"
 
-[buildPlans.IosevkaCustomSans.slopes.Italic]
+[buildPlans.SyzporiSans.slopes.Italic]
 angle = 9.4
 shape = "italic"
 menu  = "italic"
 css   = "italic"
 
-[buildPlans.IosevkaCustomSans.widths.Normal]
+[buildPlans.SyzporiSans.widths.Normal]
 shape = 600
 menu  = 5
 css   = "normal"
