@@ -3,10 +3,10 @@ IOSEVKA_DIR="/iosevka"
 WORK_DIR="/work"
 PRIVATE_FILE="private-build-plans.toml"
 DEFAULT_ARGS="contents::Iosevka"
-REPO="peacebringer1/Iosevka"
+REPO="peacebringer1/syzpori"
 REF=""
 BUILD_ARGS="$@"
-TMP_TARGZ="/tmp/iosevka.tar.gz"
+TMP_TARGZ="/tmp/syzpori.tar.gz"
 TMP_HEADERS="/tmp/headers.txt"
 set -e
 

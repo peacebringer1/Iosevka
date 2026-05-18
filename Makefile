@@ -1,12 +1,12 @@
 build:
-	podman run -it --rm -v ${PROJ_PATH}:/work --entrypoint bash iosevka-builder -c 'npm install && npm run build -- ttf::IosevkaCustomMono'
-	podman run -it --rm -v ${PROJ_PATH}:/work --entrypoint bash iosevka-builder -c 'npm install && npm run build -- ttf::IosevkaCustomSerif'
-	podman run -it --rm -v ${PROJ_PATH}:/work --entrypoint bash iosevka-builder -c 'npm install && npm run build -- ttf::IosevkaCustomSans'
+	podman run -it --rm -v ${PROJ_PATH}:/work --entrypoint bash iosevka-builder -c 'npm install && npm run build -- ttf::SyzporiMono'
+	podman run -it --rm -v ${PROJ_PATH}:/work --entrypoint bash iosevka-builder -c 'npm install && npm run build -- ttf::SyzporiSerif'
+	podman run -it --rm -v ${PROJ_PATH}:/work --entrypoint bash iosevka-builder -c 'npm install && npm run build -- ttf::SyzporiSans'
 
 install:
-	cp -r dist/IosevkaCustomMono/TTF ${HOME}/.local/share/fonts
-	cp -r dist/IosevkaCustomSerif/TTF ${HOME}/.local/share/fonts
-	cp -r dist/IosevkaCustomSans/TTF ${HOME}/.local/share/fonts
+	cp -r dist/SyzporiMono/TTF ${HOME}/.local/share/fonts
+	cp -r dist/SyzporiSerif/TTF ${HOME}/.local/share/fonts
+	cp -r dist/SyzporiSans/TTF ${HOME}/.local/share/fonts
 
 remove:
 	rm -rf ${HOME}/.local/share/fonts/*

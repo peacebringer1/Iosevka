@@ -1,4 +1,4 @@
-# Iosevka Custom
+# Syzpori
 
 Customised fork of [Iosevka](https://github.com/be5invis/Iosevka).
 
