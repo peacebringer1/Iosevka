@@ -8,8 +8,18 @@ install:
 	cp -r dist/SyzporiSerif/TTF ${HOME}/.local/share/fonts
 	cp -r dist/SyzporiSans/TTF ${HOME}/.local/share/fonts
 
+zipall:
+	zip -j dist/SyzporiFonts_hinted.zip dist/SyzporiMono/TTF/*
+	zip -j dist/SyzporiFonts_hinted.zip -u dist/SyzporiSerif/TTF/*
+	zip -j dist/SyzporiFonts_hinted.zip -u dist/SyzporiSans/TTF/* 
+	zip -j dist/SyzporiFonts_unhinted.zip dist/SyzporiMono/TTF-Unhinted/*
+	zip -j dist/SyzporiFonts_unhinted.zip dist/SyzporiSerif/TTF-Unhinted/*
+	zip -j dist/SyzporiFonts_unhinted.zip dist/SyzporiSans/TTF-Unhinted/*
+	
+
 remove:
 	rm -rf ${HOME}/.local/share/fonts/*
 
 clean:
 	rm -rf .build/*
+	rm -rf dist/*
