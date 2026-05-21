@@ -16,10 +16,9 @@ noLigation = true
 # Font variants: regular (AKA upright/normal), bold, italic 
 
 [buildPlans.SyzporiMono.weights.Regular]
-# Much cleaner but still readable
-shape = 350
-menu  = 350
-css   = 350
+shape = 400
+menu  = 400
+css   = 400
 
 [buildPlans.SyzporiMono.weights.Bold]
 shape = 700
@@ -65,9 +64,9 @@ noLigation = true
 # Font variants: regular (AKA upright/normal), bold, italic 
 
 [buildPlans.SyzporiSerif.weights.Regular]
-shape = 350
-menu  = 350
-css   = 350
+shape = 400
+menu  = 400
+css   = 400
 
 [buildPlans.SyzporiSerif.weights.Bold]
 shape = 700
@@ -107,9 +106,9 @@ noLigation = true
 # Font variants: regular (AKA upright/normal), bold, italic 
 
 [buildPlans.SyzporiSans.weights.Regular]
-shape = 350
-menu  = 350
-css   = 350
+shape = 400
+menu  = 400
+css   = 400
 
 [buildPlans.SyzporiSans.weights.Bold]
 shape = 700
