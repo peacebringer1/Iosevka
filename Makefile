@@ -15,7 +15,6 @@ zipall:
 	zip -j dist/SyzporiFonts_unhinted.zip dist/SyzporiMono/TTF-Unhinted/*
 	zip -j dist/SyzporiFonts_unhinted.zip dist/SyzporiSerif/TTF-Unhinted/*
 	zip -j dist/SyzporiFonts_unhinted.zip dist/SyzporiSans/TTF-Unhinted/*
-	
 
 remove:
 	rm -rf ${HOME}/.local/share/fonts/*
